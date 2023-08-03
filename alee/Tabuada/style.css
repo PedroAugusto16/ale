@@ -1,0 +1,58 @@
+body {
+    background-color: floralwhite;
+    width: auto 920px;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+#pergunta {
+    display: flex;
+    justify-content: center;
+}
+
+#pergunta div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10çx;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+input{
+    height: 50px;
+    width: 75px;
+    font-size: 25px;
+}
+#resultado {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado {
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+*{
+    margin:0 auto;
+    padding: 0 ;
+   box-sizing: border-box;
+
+}
+button{
+    border-radius: 0%;
+    border-color: rgb(255, 0, 0);
+    border-bottom: 0cap;
+
+}
